@@ -1,6 +1,6 @@
 # XMEGA Adapter Board
-Adapter PCB für denXMEGA um ihn auf dem Steckbrett zu nutzen.
+Eine Adapter Platine für den XMEGA, um ihn auf dem Steckbrett zu nutzen.
 
-## Screenshot
+## Screenshots
 ![Screenshot1](screenshot1.png)
 ![Screenshot2](screenshot2.png)
