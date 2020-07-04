@@ -1,4 +1,4 @@
-# XMEGA Adapter Board
+# XMEGA Adapter Board (ATXMEGA256D3)
 Eine Adapter Platine für den XMEGA, um ihn auf dem Steckbrett zu nutzen.
 
 ## Fotos
