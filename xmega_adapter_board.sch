@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "XMEGA Adapter Board "
-Date "2020-06-25"
-Rev "1.0.0"
+Date "2020-07-12"
+Rev "1.1.0"
 Comp ""
 Comment1 "Erstellt von: Thorsten Kattanek"
 Comment2 ""
@@ -166,7 +166,7 @@ Text GLabel 2900 6500 3    50   Input ~ 0
 GND
 Wire Wire Line
 	2900 6300 2900 6500
-Text GLabel 2900 2500 1    50   Input ~ 0
+Text GLabel 700  1250 3    50   Input ~ 0
 VCC
 Text GLabel 3000 2500 1    50   Input ~ 0
 AVCC
@@ -679,4 +679,68 @@ Wire Wire Line
 	8400 1650 8800 1650
 Text Notes 7900 750  0    50   ~ 0
 Stützkondensatoren, so dicht wie möglich an U1 platzieren!
+$Comp
+L Device:LED D1
+U 1 1 5F0B2F15
+P 4300 1350
+F 0 "D1" H 4293 1095 50  0000 C CNN
+F 1 "LED ROT (2,0V / 20mA)" H 4293 1186 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4300 1350 50  0001 C CNN
+F 3 "~" H 4300 1350 50  0001 C CNN
+	1    4300 1350
+	-1   0    0    1   
+$EndComp
+Text GLabel 1100 1250 3    50   Input ~ 0
+GND
+Wire Wire Line
+	4450 1350 4650 1350
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5F0BBD4E
+P 700 1000
+F 0 "#PWR01" H 700 850 50  0001 C CNN
+F 1 "+3.3V" H 715 1173 50  0000 C CNN
+F 2 "" H 700 1000 50  0001 C CNN
+F 3 "" H 700 1000 50  0001 C CNN
+	1    700  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5F0BCF31
+P 1100 1000
+F 0 "#PWR03" H 1100 750 50  0001 C CNN
+F 1 "GND" H 1105 827 50  0000 C CNN
+F 2 "" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	700  1000 700  1250
+Wire Wire Line
+	1100 1000 1100 1250
+Text Notes 600  650  0    50   ~ 0
+Spannungsversorgung
+Text GLabel 4650 1350 2    50   Input ~ 0
+GND
+Text GLabel 3100 1350 0    50   Input ~ 0
+VCC
+$Comp
+L Device:R R1
+U 1 1 5F101B02
+P 3550 1350
+F 0 "R1" V 3343 1350 50  0000 C CNN
+F 1 "68" V 3434 1350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3480 1350 50  0001 C CNN
+F 3 "~" H 3550 1350 50  0001 C CNN
+	1    3550 1350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 1350 4150 1350
+Wire Wire Line
+	3400 1350 3100 1350
+Text GLabel 2900 2500 1    50   Input ~ 0
+VCC
 $EndSCHEMATC
