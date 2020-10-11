@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "XMEGA Adapter Board "
 Date "2020-10-11"
-Rev "1.1.0"
+Rev "1.2.0"
 Comp ""
 Comment1 "Erstellt von: Thorsten Kattanek"
 Comment2 ""
