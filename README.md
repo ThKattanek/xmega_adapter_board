@@ -4,7 +4,7 @@ Eine Adapter Platine für den XMEGA, um ihn auf dem Steckbrett zu nutzen.
 ### <font color="red"> Vorsicht! Revision 1.1.0 noch nicht fertigen lassen! </font>
 
 ## Fotos
-![Screenshot1](images/image1.jpg)
+![Screenshot1](images/image1.png)
 
 ## Anschluss und Programmiergerät
 
