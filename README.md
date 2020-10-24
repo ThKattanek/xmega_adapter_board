@@ -1,7 +1,7 @@
 # XMEGA Adapter Board (ATXMEGA256D3)
 Eine Adapter Platine für den XMEGA, um ihn auf dem Steckbrett zu nutzen.
 
-### <font color="red"> Vorsicht! Revision 1.2.0 noch nicht fertigen lassen, bis ich die ersten Platinen getestet habe! </font>
+### <font color="red"> Vorsicht! Revision 1.2.1 noch nicht fertigen lassen, bis ich die ersten Platinen getestet habe! </font>
 
 ## Fotos
 ![Screenshot1](images/image1.png)

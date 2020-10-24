@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "XMEGA Adapter Board "
-Date "2020-10-11"
-Rev "1.2.0"
-Comp ""
-Comment1 "Erstellt von: Thorsten Kattanek"
+Date "2020-10-24"
+Rev "1.2.1"
+Comp "Erstellt von: Thorsten Kattanek"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
